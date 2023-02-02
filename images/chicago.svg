@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 437 272">
+  <rect x="0" y="0" width="437" height="272" fill="url(#gradient1)" />
+  <defs>
+    <linearGradient id="gradient1">
+      <stop offset="0%" stop-color="#333333" />
+      <stop offset="100%" stop-color="#333333" />
+    </linearGradient>
+    <linearGradient id="gradient2">
+      <stop offset="0%" stop-color="#DD71C6" />
+      <stop offset="100%" stop-color="#DD71C6" />
+    </linearGradient>
+  </defs>
+  <text x="20" y="70" font-family="Libre Baskerville" font-size="45" font-weight="400" fill="#333333">
+    Chicago’s Free
+  </text>
+  <text x="20" y="138" font-family="Libre Baskerville" font-size="45" font-weight="400" fill="#333333">
+    Medical Check-Up and
+  </text>
+  <text x="20" y="206" font-family="Libre Baskerville" font-size="45" font-weight="400" fill="#333333">
+    Weight Loss Consultation
+  </text>
+</svg>
