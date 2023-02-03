@@ -1,400 +1,393 @@
 body, html {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
 
 
 /* header {
-    position: absolute;
-    width: 138px;
-    height: 62.09px;
-    left: 390px;
-    top: 20px;
+  position: absolute;
+  width: 138px;
+  height: 62.09px;
+  left: 390px;
+  top: 20px;
 } */
 
 /* #first-block {
-    height: 760px;
-    width: 1920px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    background: #F9F9F9;
-    position: relative;
-  } */
+  height: 760px;
+  width: 1920px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: #F9F9F9;
+  position: relative;
+} */
 
 
-  #first-block {
-    position: absolute;
-    width: 1920px;
-    height: 760px;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
+#first-block {
+  position: absolute;
+  width: 1920px;
+  height: 760px;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
 
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  }
-
-#group45 {
-    position: absolute;
-    width: 138px;
-    height: 62.09px;
-    left: 390px;
-    top: 20px;
-  }
-
-
-
-  #about-us {
-    position: absolute;
-    width: 66px;
-    height: 17px;
-    left: 581px;
-    top: 39px;
-  
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #333333;
-  }
-
-
-  #book-online {
-    position: absolute;
-    width: 87px;
-    height: 17px;
-    left: 683px;
-    top: 39px;
-  
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #333333;
-  }
-
-  #weight-loss-programs {
-    position: absolute;
-    width: 159px;
-    height: 17px;
-    left: 806px;
-    top: 39px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #333333;
-  }
-
-  #real-patient-stories {
-    position: absolute;
-    width: 137px;
-    height: 17px;
-    left: 1001px;
-    top: 39px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #333333;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-#locations {
-    position: absolute;
-    width: 68px;
-    height: 17px;
-    left: 1174px;
-    top: 39px;
-  
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-    color: #333333;
-  }
-  
-  #blog {
-    position: absolute;
-    width: 33px;
-    height: 17px;
-    left: 1278px;
-    top: 39px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #333333;
-  }
-
-  /* #chicago-txt {
-    position: absolute;
-    width: 437px;
-    height: 272px;
-    left: 390px;
-    top: 203px;
-    bottom: 285px;
-
-    font-family: 'Libre Baskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 150%; */
-/* or 68px */
+#group45 {
+  position: absolute;
+  width: 138px;
+  height: 62.09px;
+  left: 390px;
+  top: 20px;
+}
 
 
-    /* color: #333333; }*/
-    /* #DD71C6; */
-  .chicago-div {
-    position: absolute;
-    width: 437px;
-    height: 272px;
-    left: 390px;
-    /* top: 203px; */
-    top: 147px;
-  }
 
-  .chicago-txt {
-    position: absolute;
+#about-us {
+  position: absolute;
+  width: 66px;
+  height: 17px;
+  left: 581px;
+  top: 39px;
 
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 45px;
-  line-height: 150%;
+  font-size: 14px;
+  line-height: 17px;
   color: #333333;
 }
 
+
+#book-online {
+  position: absolute;
+  width: 87px;
+  height: 17px;
+  left: 683px;
+  top: 39px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+#weight-loss-programs {
+  position: absolute;
+  width: 159px;
+  height: 17px;
+  left: 806px;
+  top: 39px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+#real-patient-stories {
+  position: absolute;
+  width: 137px;
+  height: 17px;
+  left: 1001px;
+  top: 39px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+#locations {
+  position: absolute;
+  width: 68px;
+  height: 17px;
+  left: 1174px;
+  top: 39px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #333333;
+}
+
+#blog {
+  position: absolute;
+  width: 33px;
+  height: 17px;
+  left: 1278px;
+  top: 39px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+/* #chicago-txt {
+  position: absolute;
+  width: 437px;
+  height: 272px;
+  left: 390px;
+  top: 203px;
+  bottom: 285px;
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 150%; */
+/* or 68px */
+
+
+  /* color: #333333; }*/
+  /* #DD71C6; */
+.chicago-div {
+  position: absolute;
+  width: 437px;
+  height: 272px;
+  left: 390px;
+  /* top: 203px; */
+  top: 147px;
+}
+
+.chicago-txt {
+  position: absolute;
+
+font-family: 'Libre Baskerville', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 150%;
+color: #333333;
+}
+
 .free {
-  color: #DD71C6;
-  }
+color: #DD71C6;
+}
 
 
-  .limited-spots-txt {
-    position: absolute;
-    width: 459px;
-    height: 78px;
-    left: 390px;
-    /* top: 501px; */
-    top: 474px;
+.limited-spots-txt {
+  position: absolute;
+  width: 459px;
+  height: 78px;
+  left: 390px;
+  /* top: 501px; */
+  top: 474px;
 
-   
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
 /* or 26px */
 
 
 color: #333333;
-  }
+}
 
-  .btn {
-    cursor: pointer;
-    border: none;
-
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px 14px;
-    gap: 10px;
-
-    position: absolute;
-    width: 215px;
-    height: 40px;
-    left: 390px;
-    top: 605px;
-
-    background: #DD71C6;
-
-  }
-
-  .btn-txt {
-    width: 187px;
-    height: 20px;
-
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-
-    /* display: flex; */
-    align-items: center;
-    text-align: center;
-    top: 10px;
-    left: 14px;
-
-    color: #FFFFFF;
+.btn {
+  cursor: pointer;
+  border: none;
 
 
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 14px;
+  gap: 10px;
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
+  position: absolute;
+  width: 215px;
+  height: 40px;
+  left: 390px;
+  top: 605px;
 
-  .btn:hover{
-    background: #ab3b93;
-  }
+  background: #DD71C6;
 
+}
 
-  /* .book-my-appointment {
-    align-self: hover;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px 14px;
-    gap: 10px;
+.btn-txt {
+  width: 187px;
+  height: 20px;
 
-    position: absolute;
-    width: 215px;
-    height: 40px;
-    left: 390px;
-    bottom: 105px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
 
-    background: #DD71C6;
-  } */
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  top: 10px;
+  left: 14px;
 
-
-  /* .chicago-txt {
-    position: absolute;
-    width: 437px;
-    height: 272px;
-    left: 390px;
-    top: 203px;
-    font-family: 'Libre Baskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 68px;
-    color: #333333;
-    text-align: left;
-  }
-  
-  .free {
-    color: #DD71C6;
-  } */
+  color: #FFFFFF;
 
 
 
-  
-  /* #rectangle10 {
-    height: 760px;
-    width: 590px;
-    left: 1330px;
-    top: 0px;
-    background: #FFD900;
-    position: absolute;
-    border-radius: 50px 0px 0px 0px;
-  } */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
 
-  #shop {
-    position: absolute;
-    width: 37px;
-    height: 17px;
-    right: 536px;
-    /* left: 1347px; */
-    top: 39px;
-    /* right: 536px; */
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #333333;
-   }
-
-   #subscription {
-    position: absolute;
-    width: 89px;
-    height: 17px;
-    /* left: 1420px; */
-    right: 411px;
-    top: 39px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    color: #333333;
-    text-align: left;
-  }
-
-
-  /* .frame63-container {
-    position: absolute;
-    width: 629px;
-    height: 321px;
-    left: 901px;
-    top: 182px;
+.btn:hover{
+  background: #ab3b93;
 }
 
 
-.frame63 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 41px 36px;
-    gap: 10px;
-    background: linear-gradient(107.9deg, rgba(255, 255, 255, 0.51) 9.7%, rgba(255, 255, 255, 0.49) 88.76%);
-    backdrop-filter: blur(33.5px);
-    border-radius: 50px;
-    width: 100%;
-    height: 100%;
+/* .book-my-appointment {
+  align-self: hover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 14px;
+  gap: 10px;
+  position: absolute;
+  width: 215px;
+  height: 40px;
+  left: 390px;
+  bottom: 105px;
+  background: #DD71C6;
 } */
-   
-  #frame63 {
-    position: absolute;
-    width: 629px;
-    height: 321px;
-    /* left: 901px; */
-    right: 390px;
-    top: 182px;
-    bottom: 257px;
-    background: linear-gradient(107.9deg, rgba(255, 255, 255, 0.51) 9.7%, rgba(255, 255, 255, 0.49) 88.76%);
-    backdrop-filter: blur(33.5px);
-    border-radius: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    /* padding: 41px 36px; */
-  }
-
-  /* #ellipse28 {
-   position: absolute;
-   width: 436px;
-   height: 436px;
-   right: -167px;
-   top: 123px;
-  } */
 
 
-  /* #ellipse27 { */
-    /* height: 386px;
-    width: 386px;
-    left: -91px;
-    top: 187px;
-    border: 28px solid #FFFFFF;
-    background: #FFFFFF;
-    box-sizing: border-box;
-    position: absolute;
-    border-radius: 0px; */
+/* .chicago-txt {
+  position: absolute;
+  width: 437px;
+  height: 272px;
+  left: 390px;
+  top: 203px;
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 68px;
+  color: #333333;
+  text-align: left;
+}
 
-    /* position: absolute;
-    width: 386px;
-    height: 386px;
-    left: -91px;
-    top: 187px;
-  } */
+.free {
+  color: #DD71C6;
+} */
 
- 
+
+
+
+/* #rectangle10 {
+  height: 760px;
+  width: 590px;
+  left: 1330px;
+  top: 0px;
+  background: #FFD900;
+  position: absolute;
+  border-radius: 50px 0px 0px 0px;
+} */
+
+#shop {
+  position: absolute;
+  width: 37px;
+  height: 17px;
+  right: 536px;
+  /* left: 1347px; */
+  top: 39px;
+  /* right: 536px; */
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+ }
+
+ #subscription {
+  position: absolute;
+  width: 89px;
+  height: 17px;
+  /* left: 1420px; */
+  right: 411px;
+  top: 39px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #333333;
+  text-align: left;
+}
+
+
+/* .frame63-container {
+  position: absolute;
+  width: 629px;
+  height: 321px;
+  left: 901px;
+  top: 182px;
+}
+.frame63 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 41px 36px;
+  gap: 10px;
+  background: linear-gradient(107.9deg, rgba(255, 255, 255, 0.51) 9.7%, rgba(255, 255, 255, 0.49) 88.76%);
+  backdrop-filter: blur(33.5px);
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+} */
+
+#frame63 {
+  position: absolute;
+  width: 629px;
+  height: 321px;
+  /* left: 901px; */
+  right: 390px;
+  top: 182px;
+  bottom: 257px;
+  background: linear-gradient(107.9deg, rgba(255, 255, 255, 0.51) 9.7%, rgba(255, 255, 255, 0.49) 88.76%);
+  backdrop-filter: blur(33.5px);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* padding: 41px 36px; */
+}
+
+/* #ellipse28 {
+ position: absolute;
+ width: 436px;
+ height: 436px;
+ right: -167px;
+ top: 123px;
+} */
+
+
+/* #ellipse27 { */
+  /* height: 386px;
+  width: 386px;
+  left: -91px;
+  top: 187px;
+  border: 28px solid #FFFFFF;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 0px; */
+
+  /* position: absolute;
+  width: 386px;
+  height: 386px;
+  left: -91px;
+  top: 187px;
+} */
