@@ -62,6 +62,11 @@ body {
   #only-spot-mobile {
     visibility: hidden;
   }
+
+  #limited-spots-mobile {
+    visibility: hidden;
+  }
+
 /* 
   #background {
     position: absolute;
@@ -338,40 +343,49 @@ color: #333333;
 
 
   #about-us {
-    visibility: hidden;
+    display: none;
+    /* visibility: hidden; */
   }
 
   #book-online {
-    visibility: hidden;
+    display: none;
+    /* visibility: hidden; */
   }
 
   #weight-loss-programs {
-    visibility: hidden;
+    display: none;
+    /* visibility: hidden; */
   }
 
   #real-patient-stories {
-    visibility: hidden;
+    display: none;
+    /* visibility: hidden; */
   }
 
   #locations {
-    visibility: hidden;
+    display: none;
+    /* visibility: hidden; */
   }
 
   #blog {
-    visibility: hidden;
+    display: none;
+    /* visibility: hidden; */
   }
 
   #shop {
-    visibility: hidden;
+    display: none;
+    /* visibility: hidden; */
   }
 
   #subscription {
+    display: none;
     visibility: hidden;
   }
 
 
   .chicago-div {
-    visibility: hidden;
+    display: none;
+    /* visibility: hidden; */
   }
 
   .limited-spots-txt {
@@ -383,11 +397,19 @@ color: #333333;
     padding: 0;
     width: 23.44rem;
 
+
   }
 
   #first-block {
+
     position: absolute;
-    width: 23.44rem;
+    background-image: none;
+    background-color: #F5F5F5;
+    overflow: hidden;
+
+
+    /* width: 23.44rem; */
+    width: 100%;
     height: 48rem;
     left: 0;
     top: 0;
@@ -396,9 +418,10 @@ color: #333333;
     margin: 0;
     padding: 0;
 
-    /* background-image: url(/png/tablet-version/menu.png);
-    background-position:right;
-    background-size:contain; */
+    /* background: linear-gradient(to right, #F5F5F5 0%, #F5F5F5 48.5%, #FFD900 48.5, #FFD900 100%);
+
+    border-radius: 0px 0px 50px 0px; */
+
 
     display: flex;
 
@@ -407,18 +430,44 @@ color: #333333;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
 
-  #rectangle-10 {
-    visibility: visible;
+  #yellow-background {
+    /* background: linear-gradient(to right, #FFD900 0%, #FFD900 50%, #FFD900 50%, #FFD900 100%); */
+    background-color: #FFD900;
+    border-radius: 50px 0px 0px 0px;
     position: absolute;
-    width: 12rem;
-    height: 47.5rem;
-    left: 11.44rem;
     top: 0;
-
-   /* background: #FFD900;
-   border-radius: 50px 0px 0px 0px; */
-
+    left: 48.5%;
+    width: 51.5%;
+    height: 100%;
   }
+
+  #ellipse-mobile-first-block {
+    /* background-color: white;
+    border-radius: 50% / 30%;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width:  13.875rem;
+    height:  13.875rem;
+    left: 13.3125rem;
+    top: 9.4375rem;
+
+    opacity: 0.15;
+    border: 28px solid #FFFFFF;
+
+    border-radius: 50% / 50%;
+    -webkit-clip-path: ellipse(111px 111px at center);
+    clip-path: ellipse(6.9375rem 6.9375rem at center);
+  }
+
+
 
   #mobile-menu {
     visibility: visible;
@@ -447,6 +496,29 @@ color: #333333;
     
 
 
+  }
+
+  #limited-spots-mobile-block{
+    visibility: visible;
+    position: absolute;
+    width: 17.5625rem;
+    height: 6.5rem;
+    left: 2.93rem;
+    top: 33.6875rem;
+
+  }
+
+  #limited-spots-mobile-txt {
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;
+
+
+    color: #333333;
   }
 
   /* #only-spot-mobile {
@@ -479,7 +551,7 @@ color: #333333;
 
   #only-spot-txt-mobile {
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 0.75rem;
@@ -525,6 +597,7 @@ color: #333333;
     /* box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1); */
     backdrop-filter: blur(20px);
     border-radius: 30px;
+    overflow: hidden;
   }
 
   .btn {
