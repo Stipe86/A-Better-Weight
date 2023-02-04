@@ -63,22 +63,15 @@ body {
     visibility: hidden;
   }
 
-  #limited-spots-mobile {
+  #limited-spots-mobile-block {
     visibility: hidden;
   }
 
-/* 
-  #background {
-    position: absolute;
-    width: 120rem;
-    height: 47.5rem;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0;
-    padding: 0;
-  } */
+
+  #limited-spots-mobile-txt {
+    visibility: hidden;
+  }
+
 
 #group45 {
     position: absolute;
@@ -442,14 +435,6 @@ color: #333333;
   }
 
   #ellipse-mobile-first-block {
-    /* background-color: white;
-    border-radius: 50% / 30%;
-    width: 200px;
-    height: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
 
     box-sizing: border-box;
 
@@ -521,23 +506,6 @@ color: #333333;
     color: #333333;
   }
 
-  /* #only-spot-mobile {
-    visibility: visible;
-    position: absolute;
-    width: 8.37rem;
-    height: 0.75rem;
-    left: 2.94rem;
-    top: 19.56rem;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.75rem;
-    line-height: 158.4%;
-
-    align-items: center;
-    text-align: center;
-  } */
 
   #only-spot-mobile {
     visibility: visible;
