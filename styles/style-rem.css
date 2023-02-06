@@ -1457,28 +1457,28 @@ color: #333333;
   background: #ab3b93;
 }
 
-
 #section-four {
+  display: none;
+
   
-  margin: 0;
+  /* margin: 0;
   position: absolute;
   width: 100%;
   background-color: #FFFFFF;
   height: 83.5625rem;
   top: 148.5rem;
-  left: 0;
+  left: 0; */
 
 }
 
-.six-people-mobile {
+/* .six-people-mobile {
   visibility: visible;
   position: absolute;
   width: 23.4375rem;
   height: 15.5625rem;
   left: 0px;
   top: 184.5625rem;
-  /* background: url(cXkT94Zs.jpg); */
-}
+} */
 
 
 
