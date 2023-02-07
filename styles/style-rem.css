@@ -1151,6 +1151,10 @@ visibility: hidden;
     cursor: pointer;
     border: none;
 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
 
     display: flex;
     flex-direction: row;
@@ -1208,6 +1212,7 @@ visibility: hidden;
     background-size: cover;
   
     display: flex;
+    overflow: hidden;
   }
 
   /* #pink-background {
@@ -1228,8 +1233,12 @@ visibility: hidden;
 } */
 
 #btn-section-two {
-  cursor: pointer;
+   cursor: pointer;
    border: none;
+
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
 
 
    display: flex;
@@ -1434,6 +1443,11 @@ visibility: hidden;
 
   cursor: pointer;
   border: none;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1580,6 +1594,11 @@ color: #333333;
   visibility: visible;
   cursor: pointer;
   border: none;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
   display: flex;
   flex-direction: row;
   align-items: flex-start;
