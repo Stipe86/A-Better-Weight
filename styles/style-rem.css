@@ -897,6 +897,10 @@ visibility: hidden;
   visibility: hidden;
 }
 
+.mobile-ellipse-section-four {
+  visibility: hidden;
+}
+
 
 
 /* 555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555 */
@@ -1487,6 +1491,21 @@ visibility: hidden;
   height: 83.5625rem;
   top: 148.5rem;
   left: 0;
+  overflow: hidden;
+
+}
+
+.mobile-ellipse-section-four {
+  visibility: visible;
+  box-sizing: border-box;
+  position: absolute;
+  width: 18.0625rem;
+  height: 18.0625rem;
+  left: 12.125rem;
+  top: 4.6875rem;
+  border: 20px solid #F9F9F9;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 #header-section-four {
@@ -1518,6 +1537,7 @@ color: #333333;
   font-size: 1rem;
   line-height: 169.5%;
   color: #333333;
+  z-index: 2;
 }
 
 #second-paragraph-section-four-mobile {
@@ -1600,6 +1620,8 @@ color: #333333;
 #btn-section-four-mobile:hover{
   background: #ab3b93;
 }
+
+
 
 
 
