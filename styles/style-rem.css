@@ -1356,11 +1356,11 @@ visibility: hidden;
 }
 
 #section-three {
-  display: none;
+  visibility: hidden;
 }
 
 #section-four {
-  display: none;
+  visibility: hidden;
 }
 
 
@@ -1813,6 +1813,7 @@ visibility: hidden;
 }
 
 #section-three {
+  visibility: visible;
   margin: 0;
   position: absolute;
   width: 100%;
@@ -2005,6 +2006,7 @@ visibility: hidden;
 }
 
 #section-four {
+  visibility: visible;
   margin: 0;
   position: absolute;
   width: 100%;
