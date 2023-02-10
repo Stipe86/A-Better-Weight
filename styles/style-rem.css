@@ -1265,20 +1265,103 @@ visibility: hidden;
 
 
 
+
+
   #section-two {
-    display: none;
+    margin: 0;
+    position: absolute;
+    background-image: none;
+    /* width: 100%; */
+    width: 51.25rem;
+    height: 23.25rem;
+    left: 0px;
+    top: 54.9375rem;
+    /* background-color: #DD71C6; */
+    background-image: url(/png/tablet-version/Banner&get\ to\ know\ us.png);
+    /* background-position: center; */
+    background-size: cover;
+  
+    display: flex;
+    overflow: hidden;
   }
 
-  #section-three {
+  /* #pink-background {
     display: none;
-  }
+  } */
 
-  #section-four {
-    display: none;
-  }
+  #pink-background {
+
+    background-color: #DD71C6;
+    position: relative;
+    top: 74%;
+    width: 41.25rem;
+    height: 26%;
+}
+
+/* #btn-section-two {
+  display: none;
+} */
+
+#btn-section-two {
+   cursor: pointer;
+   border: none;
+
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+
+
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 0.625rem 0.875rem;
+   gap: 0.625rem;
+
+   position: absolute;
+   width: 13.4375rem;
+   height: 2.5rem;
+   left: 18.9375rem;
+   top: 18.0625rem;
+   background: #FFD900; 
+}
 
 
 
+.btn-two-txt {
+    width: 11.6875rem;
+    height: 1.25rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.25rem;
+
+    align-items: center;
+    text-align: center;
+    top: 0.625rem;
+    left: 0.875rem;
+
+    color: #FFFFFF;
+
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#btn-section-two:hover{
+  background: #ab3b93;
+}
+
+#section-three {
+  display: none;
+}
+
+#section-four {
+  display: none;
+}
 
 
 }
